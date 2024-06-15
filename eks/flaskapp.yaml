@@ -36,10 +36,7 @@ spec:
               name: mysql-secret
               key: mysql-password
         - name: MYAQL_DB
-          valueFrom:
-            secretKeyRef:
-              name: mysql-secret
-              key: mysql-database
+          value: "mydb"
 --- 
 apiVersion: v1
 kind: Service
