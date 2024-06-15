@@ -15,7 +15,7 @@ spec:
         app: flaskapp
     spec:
       imagePullSecrets:
-      - name: my-registry-key 
+      - name: my-registry-key
       containers:
       - name: flaskapp
         image: chinmayapradhan/flaskapp:1
