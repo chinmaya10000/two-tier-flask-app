@@ -6,7 +6,7 @@ pipeline {
         NAME = 'flaskapp'
         IMAGE_VERSION = "${env.BUILD_NUMBER}"
         IMAGE_REPO = 'chinmayapradhan'
-        SLACK_CHANNEL = '#'
+        SLACK_CHANNEL = '#flaskapp'
     }
 
     stages {
