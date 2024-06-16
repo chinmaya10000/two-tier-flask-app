@@ -24,7 +24,7 @@ spec:
         - containerPort: 5000
         env:
         - name: MYSQL_HOST
-          value: "10.102.25.39" # this is your mysql's service clusture IP, Make sure to change it with yours
+          value: mysql # this is your mysql's service clusture IP, Make sure to change it with yours
         - name: MYSQL_USER
           valueFrom:
             secretKeyRef:
